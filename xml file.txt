@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResponseMessage>
+                <HEADER>
+                                <ns0:MSGID xmlns:ns0="http://xmlns.du.ae/EAI/HEADER">a82d0440-dd0f-4608-93ed-ef8c52a87655</ns0:MSGID>
+                                <ns0:SOURCE xmlns:ns0="http://xmlns.du.ae/EAI/HEADER">LCE</ns0:SOURCE>
+                                <ns0:TARGET xmlns:ns0="http://xmlns.du.ae/EAI/HEADER">SIEBEL</ns0:TARGET>
+                                <ns0:SERVICE_SIGNATURE xmlns:ns0="http://xmlns.du.ae/EAI/HEADER">GetEntityData</ns0:SERVICE_SIGNATURE>
+                                <ns0:QOS xmlns:ns0="http://xmlns.du.ae/EAI/HEADER">R</ns0:QOS>
+                                <ns0:REPLY_EXPECTED xmlns:ns0="http://xmlns.du.ae/EAI/HEADER">Now</ns0:REPLY_EXPECTED>
+                                <ns0:CREATION_TIMESTAMP xmlns:ns0="http://xmlns.du.ae/EAI/HEADER">2022-08-03T10:55:47.545+04:00</ns0:CREATION_TIMESTAMP>
+                                <ns0:VERSION xmlns:ns0="http://xmlns.du.ae/EAI/HEADER">1</ns0:VERSION>
+                                <ns0:TTL xmlns:ns0="http://xmlns.du.ae/EAI/HEADER">60000</ns0:TTL>
+                                <ns0:TIMEOUT xmlns:ns0="http://xmlns.du.ae/EAI/HEADER">60000</ns0:TIMEOUT>
+                                <ns0:TRIES xmlns:ns0="http://xmlns.du.ae/EAI/HEADER">0</ns0:TRIES>
+                                <ns0:CORRELATION_ID xmlns:ns0="http://xmlns.du.ae/EAI/HEADER">ffffffac000182627d2eea00fa1c0852</ns0:CORRELATION_ID>
+                                <ns0:HISTORY xmlns:ns0="http://xmlns.du.ae/EAI/HEADER">
+                                                <ns1:FLOW xmlns:ns0="http://xmlns.du.ae/EAI/REQUEST_EAI" xmlns:ns1="http://xmlns.du.ae/EAI/HEADER">
+                                                                <ns1:OWNER>DUCORP-1-Process_Archive</ns1:OWNER>
+                                                                <ns1:SERVICE>GetEntityData</ns1:SERVICE>
+                                                                <ns1:TIMESTAMP>2022-08-03T10:55:47.545+04:00</ns1:TIMESTAMP>
+                                                                <ns1:VERSION>1</ns1:VERSION>
+                                                </ns1:FLOW>
+                                                <ns0:FLOW>
+                                                                <ns0:OWNER>DUCORP-1-Process_Archive</ns0:OWNER>
+                                                                <ns0:SERVICE>GetEntityData</ns0:SERVICE>
+                                                                <ns0:TIMESTAMP>2022-08-03T10:55:47.625+04:00</ns0:TIMESTAMP>
+                                                                <ns0:VERSION>1</ns0:VERSION>
+                                                </ns0:FLOW>
+                                                <ns0:STEP>1</ns0:STEP>
+                                </ns0:HISTORY>
+                                <ns1:CREDENTIALS xmlns:ns0="http://xmlns.du.ae/EAI/REQUEST_EAI" xmlns:ns1="http://xmlns.du.ae/EAI/HEADER">
+                                                <ns1:APPLICATION_ID>LCE</ns1:APPLICATION_ID>
+                                                <ns1:LOGIN>JASAM_BO</ns1:LOGIN>
+                                                <ns1:PASSWORD/>
+                                </ns1:CREDENTIALS>
+                </HEADER>
+                <RESPONSE_CODES>
+                                <ns0:RESPONSE_CODE xmlns:ns0="http://xmlns.du.ae/EAI/RESPONSE_CODES">-600</ns0:RESPONSE_CODE>
+                                <ns0:RESPONSE_MSG xmlns:ns0="http://xmlns.du.ae/EAI/RESPONSE_CODES">Unspecified Error</ns0:RESPONSE_MSG>
+                                <ns0:ERROR_CODE xmlns:ns0="http://xmlns.du.ae/EAI/RESPONSE_CODES">SOAPPLUGIN-100048</ns0:ERROR_CODE>
+                                <ns0:ERROR_DESCRIPTION xmlns:ns0="http://xmlns.du.ae/EAI/RESPONSE_CODES">An exception with the following message was thrown while deserializing/processing the incoming SOAP message: [ An exception with the following message was thrown while deserializing/processing the incoming SOAP message: [ java.net.UnknownHostException: www.w3.org ] ]</ns0:ERROR_DESCRIPTION>
+                </RESPONSE_CODES>
+</ResponseMessage>
