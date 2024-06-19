@@ -41,3 +41,6 @@
                                 <ns0:ERROR_DESCRIPTION xmlns:ns0="http://xmlns.du.ae/EAI/RESPONSE_CODES">An exception with the following message was thrown while deserializing/processing the incoming SOAP message: [ An exception with the following message was thrown while deserializing/processing the incoming SOAP message: [ java.net.UnknownHostException: www.w3.org ] ]</ns0:ERROR_DESCRIPTION>
                 </RESPONSE_CODES>
 </ResponseMessage>
+vihakan
+alsk
+vihan
